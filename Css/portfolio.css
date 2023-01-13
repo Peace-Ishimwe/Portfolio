@@ -1,0 +1,60 @@
+.scroll {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    overflow-x: scroll;
+    justify-content: space-between;
+}
+
+.scroll-cont {
+    width: auto;
+    display: flex;
+    height: fit-content;
+    padding-top: 0;
+    padding-bottom: .7rem;
+    flex-direction: column;
+    overflow-x: scroll;
+    gap: 2rem;
+    background-color: white;
+}
+
+.scrollx {
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    gap: 2rem;
+
+}
+.portfolio{
+    margin-left: 6rem;
+}
+
+@media (max-width:1100px) {
+    .portfolio {
+        flex-direction: column;
+        margin-left: 4rem;
+    }
+}
+@media (max-width:880px) {
+    .portfolio {
+        flex-direction: column;
+        margin-left: 3rem;
+    }
+}
+@media (max-width:770px) {
+    .portfolio {
+        flex-direction: column;
+        margin-left: 1rem;
+    }
+}
+
+
+@media (max-width:640px) {
+    .scroll {
+        flex-direction: column;
+    }
+
+    .scroll div:nth-of-type(1) img {
+        width: 100%;
+    }
+}
