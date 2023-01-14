@@ -76,7 +76,7 @@
     gap: 1rem;
 }
 
-.wlcm button:nth-of-type(1) {
+.wlcm button{
     background: #0DB760;
     border-radius: 12px;
     border: none;
@@ -85,25 +85,11 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    color: #fff;
+    color: #fff; 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.1);
     line-height: 150%;
 }
 
-.wlcm-btn button:nth-child(2) {
-    background-image: url(../Images/arrow\ btn.svg);
-    background-repeat: no-repeat;
-    background-position: right 0 bottom 0;
-    border-radius: 12px;
-    border: none;
-    padding-right: 2rem;
-    background-color: #fff;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    color: #000;
-    line-height: 150%;
-}
 
 @media (max-width:1280px) {
     .my-photo {
