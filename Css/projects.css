@@ -103,11 +103,17 @@
  main{
     background-image: url(../Images/Design\ bullet.svg);
     background-repeat: no-repeat;
+    width: 100%;
     background-position: right bottom;
 
  }
 main{
     padding-bottom: 3rem;
+}
+@media (min-width:1560px){
+    main{
+        background: none;
+    }
 }
  @media (max-width:769px){
     main{
